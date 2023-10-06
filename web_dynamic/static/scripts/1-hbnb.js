@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  console.log('jquery script loaded');
   $('input:checkbox:checked').prop('checked', false);
   const data = {};
   $('input:checkbox').on('click', function () {
