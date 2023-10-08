@@ -81,6 +81,11 @@ button:hover {
 .locations .popover {
     margin-top: 0%;
 }
+
+.locations .popover input[type="checkbox"] {
+    margin-right: 10px;
+}
+
 .popover ul {
     list-style-type: none;
     padding-bottom: 10px;
@@ -95,6 +100,7 @@ button:hover {
     margin-top: 1.5%;
     margin-bottom: 5%;
     margin-left: 0px;
+    display: inline-block;
 }
 
 .amenities:hover .popover,
